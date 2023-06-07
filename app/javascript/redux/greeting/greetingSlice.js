@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 const initialState = {
   greeting: '',
-  isLoading: true
+  isLoading: true,
 };
 
 export const fetchGreeting = createAsyncThunk('greeting/fetchGreeting', async () => {

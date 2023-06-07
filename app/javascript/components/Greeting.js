@@ -9,12 +9,12 @@ const Greeting = () => {
   }
 
   return (
-        <>
-            <h1>
-                <span>Random Greeting: </span>
-                <span>{greetings.greeting}</span>
-            </h1>
-        </>
+    <>
+      <h1>
+        <span>Random Greeting: </span>
+        <span>{greetings.greeting}</span>
+      </h1>
+    </>
   );
 };
 
